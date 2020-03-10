@@ -2,7 +2,6 @@ import filecmp
 import sys
 import difflib
 from pprint import pprint
-import fileinput
 
 sample = sys.argv[-1]
 control = sys.argv[-2]
