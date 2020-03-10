@@ -1,6 +1,6 @@
 # CSV Comparison 
 
-1 - fork the repo
+1 - Clone the repo
 
 2 - run `python tester.py textfile.txt textfile2.txt`
 
