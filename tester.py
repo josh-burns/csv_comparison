@@ -7,12 +7,12 @@ sample = sys.argv[-1]
 control = sys.argv[-2]
 
 # checks if txt files are the same
-if filecmp.cmp(sample, control, shallow=False ):
+if filecmp.cmp(sample, control, shallow=False):
     print("The values in the files match")
     sys.exit(0)
 
 else:
-    print("oh no! "+sample+" and "+control+" don't match. Give me a second, I will find which lines \n ...")
+    print("oh no! "+sample+" and "+control+" don't match. Give me a second, I will find which lines ...")
 
     def turnFiletoString(data):
         with open(data, 'r') as file:
