@@ -13,7 +13,7 @@ if filecmp.cmp(sample, control, shallow=False ):
     sys.exit(0)
 
 else:
-    print("oh no!"+sample+" and "+control+" don't match. Give me a second, I will find which lines \n ...")
+    print("oh no! "+sample+" and "+control+" don't match. Give me a second, I will find which lines \n ...")
 
     def turnFiletoString(data):
         with open(data, 'r') as file:
